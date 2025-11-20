@@ -23,7 +23,8 @@ public class controllerPrimaPersona : MonoBehaviour
     void Update()
     {
         Sprint();
-        Move();
+        Move(); 
+        
         Look();
     }
 }
