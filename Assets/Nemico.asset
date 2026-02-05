@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a4aaf6abd5c2f2478a9a0594175b50f, type: 3}
+  m_Name: Nemico
+  m_EditorClassIdentifier: Assembly-CSharp::EntityDataSO
+  baseEntity: {fileID: 5311910758397184881, guid: f5acdebfd5a9f0145ba95765a27c47fe, type: 3}
+  maxEntityHealth: 100
+  startingEntityHealth: 100
+  entityColor: {r: 0.33416125, g: 0.28184396, b: 0.7660377, a: 1}
+  size: 1
+  speed: 5
+  engageDistance: 40
+  weapon: {fileID: 11400000, guid: b1f9b1d9bf63fef46a560a40743e4608, type: 2}
